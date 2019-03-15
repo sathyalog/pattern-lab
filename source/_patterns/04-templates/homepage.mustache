@@ -1,0 +1,19 @@
+{{> organisms-header }}
+<main role="main">
+
+	{{# hero }}
+		{{> molecules-hero }}
+	{{/ hero}}
+
+	<div class="l">
+    {{#displaylist}}
+		{{> organisms-gridlist }}
+    {{/displaylist}}
+	</div>
+
+    <div class="l">
+    {{#displaytext}}
+		{{> organisms-textblob }}
+    {{/displaytext}}    
+	</div>
+</main>

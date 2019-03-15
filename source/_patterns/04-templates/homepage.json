@@ -1,0 +1,54 @@
+{
+    "hero":{
+        "image": {
+            "src":"https://upload.wikimedia.org/wikipedia/commons/8/8a/Creative-3D-Om-Shining-HD-Wallpaper-Free.jpg",
+            "imagename":"Image Name",
+            "styleModifier":"img-tablet"
+        },
+        "inlineelement":{
+            "tag":"h2",
+            "text":"bla bla bla...",
+            "classmodifier":"c-block-hero__headline"
+        }
+    },
+    "displaylist":{
+        "grids":[
+            {
+                "image": {
+                    "src":"https://upload.wikimedia.org/wikipedia/commons/8/8a/Creative-3D-Om-Shining-HD-Wallpaper-Free.jpg",
+                    "imagename":"Image Name",
+                    "styleModifier":"img-mobile"
+                }
+            },
+            {
+                "image": {
+                    "src":"https://upload.wikimedia.org/wikipedia/commons/8/8a/Creative-3D-Om-Shining-HD-Wallpaper-Free.jpg",
+                    "imagename":"Image Name",
+                    "styleModifier":"img-mobile"
+                }
+            },
+            {
+                "image": {
+                    "src":"https://upload.wikimedia.org/wikipedia/commons/8/8a/Creative-3D-Om-Shining-HD-Wallpaper-Free.jpg",
+                    "imagename":"Image Name",
+                    "styleModifier":"img-mobile"
+                }
+            }
+        ]
+    },
+    "displaytext":{
+        "inlineelement":[
+            {
+            "tag":"h2",
+            "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!",
+            "classmodifier":"header-logo"
+            },
+            {
+            "tag":"h3",
+            "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!",
+            "classmodifier":"header-logo"
+            }
+        ],
+        "textclass":"nostyling"
+    }
+}
