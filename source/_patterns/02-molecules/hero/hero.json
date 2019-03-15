@@ -1,0 +1,12 @@
+{
+    "image": {
+        "src":"https://upload.wikimedia.org/wikipedia/commons/8/8a/Creative-3D-Om-Shining-HD-Wallpaper-Free.jpg",
+        "imagename":"Image Name",
+        "styleModifier":"img-tablet"
+    },
+    "inlineelement":{
+        "tag":"h2",
+        "text":"bla bla bla...",
+        "classmodifier":"c-block-hero__headline"
+    }
+}

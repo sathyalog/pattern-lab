@@ -93,3 +93,118 @@ a {
   width: 175px;
   height:75px;
 }
+.c-primary-nav {
+  display: none; }
+  .c-primary-nav--is-active {
+    display: block;
+    position: absolute;
+    padding: 1em 2em;
+    top: 67px;
+    right: 0;
+    box-shadow: -3px 3px 5px -2px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    background: #fff; }
+  @media all and (min-width: 46.8em) {
+    .c-primary-nav {
+      display: block;
+      margin-right: 1rem; } }
+
+/**
+ * Nav List
+ */
+.c-primary-nav__list {
+  display: none; }
+  @media all and (min-width: 46.8em) {
+    .c-primary-nav__list {
+      display: flex; } }
+  .c-primary-nav--is-active .c-primary-nav__list {
+    display: block; }
+.c-primary-nav__link {
+  font-weight: bold;
+  color: gray;
+  display: block;
+  padding: 1rem; }
+.c-primary-nav__item{
+  list-style-type: none;
+  color: gray;
+}
+
+.c-search-form {
+  display: none; }
+  .c-search-form--is-active {
+    display: block;
+    position: absolute;
+    top: 67px;
+    right: 2px;
+    width: 100%;
+    padding: 1em;
+    box-shadow: 0px 3px 5px -2px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    z-index: 1; }
+  @media all and (min-width: 29.75em) {
+    .c-search-form {
+      display: block; } }
+
+/**
+ * Search input
+ */
+.c-search-form__input {
+  width: 100%;
+  padding: 10px; 
+}
+
+
+
+/**
+ * Hero Headline
+ * 1) This sits overtop of the hero image when space permits
+ */
+ .c-block-hero__headline {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 1rem;
+  font-size: 2.6rem;
+  transition: all 0.2s ease; }
+  @media all and (min-width: 50em) {
+    .c-block-hero__headline {
+      position: absolute;
+      top: 3rem;
+      left: 1rem;
+      width: 50%;
+      border-radius: 6px; } }
+  .c-block-hero:hover .c-block-hero__headline, .c-block-hero:focus .c-block-hero__headline {
+    background: #444444; }
+
+    .c-block-hero {
+      display: block;
+      position: relative; }
+    
+    /**
+     * Hero Image
+     * 1) This is the primary hero image that runs full-bleed across the layout
+     */
+    .c-block-hero__img {
+      display: block;
+      width: 100%;
+      max-height: 50vh;
+      object-fit: cover; }
+    
+    /**
+     * Hero Headline
+     * 1) This sits overtop of the hero image when space permits
+     */
+    .c-block-hero__headline {
+      background: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      padding: 1rem;
+      font-size: 2.6rem;
+      transition: all 0.2s ease; }
+      @media all and (min-width: 50em) {
+        .c-block-hero__headline {
+          position: absolute;
+          top: 3rem;
+          left: 1rem;
+          width: 50%;
+          border-radius: 6px; } }
+      .c-block-hero:hover .c-block-hero__headline, .c-block-hero:focus .c-block-hero__headline {
+        background: #444444; }
