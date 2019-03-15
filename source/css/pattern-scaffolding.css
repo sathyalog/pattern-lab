@@ -208,3 +208,42 @@ a {
           border-radius: 6px; } }
       .c-block-hero:hover .c-block-hero__headline, .c-block-hero:focus .c-block-hero__headline {
         background: #444444; }
+.c-header{
+  display: flex;
+    align-items: center;
+    box-shadow: 0px 3px 5px -2px rgba(0, 0, 0, 0.2);
+    padding: 0.5em 0;
+}
+
+.c-header__controls {
+  margin-left: auto;
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+}
+.header-logo{
+  margin:15px
+}
+
+@media all and (min-width: 46.8em) {
+  .g-3up > .gi {
+    float: left;
+    width: 50%; }
+    .g-3up > .gi:nth-of-type(2n+1) {
+      clear: left; } }
+@media all and (min-width: 50em) {
+  .g-3up > .gi {
+    width: 33.3333333%; }
+    .g-3up > .gi:nth-of-type(2n+1) {
+      clear: none; }
+    .g-3up > .gi:nth-of-type(3n+1) {
+      clear: left; } }
+
+.c-tout-list__item{
+  list-style-type: none;
+}
+
+.nostyling{
+  list-style-type: none;
+  color: gray;
+}

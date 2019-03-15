@@ -1,0 +1,33 @@
+{
+    "nav":{
+        "primaryNav": [
+        {
+            "label": "About",
+            "url": "link.pages-about"
+        },
+        {
+            "label": "Blog",
+            "url": "link.pages-blog-index"
+        },
+        {
+            "label": "Contact",
+            "url": "link.pages-contact"
+        },
+        {
+            "label": "Login",
+            "url": "link.pages-login"
+        }
+    ]
+    },
+    "search":{
+        "input":{
+            "type":"search",
+            "cls-name":"c-search-form__input"
+        }
+    },
+    "inlineelement":{
+        "tag":"h2",
+        "text":"Header",
+        "classmodifier":"header-logo"
+    }
+}

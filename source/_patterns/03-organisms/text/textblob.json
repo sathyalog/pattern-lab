@@ -1,0 +1,15 @@
+{
+    "inlineelement":[
+        {
+        "tag":"h2",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!",
+        "classmodifier":"header-logo"
+        },
+        {
+        "tag":"h3",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!",
+        "classmodifier":"header-logo"
+        }
+    ],
+    "textclass":"nostyling"
+}
