@@ -1,0 +1,12 @@
+{
+    "id":"select",
+    "label":"choose one",
+    "optgroup":[
+        {
+            "optionstext":"one"
+        },
+        {
+            "optionstext":"two"
+        }
+    ]
+}

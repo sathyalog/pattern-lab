@@ -73,3 +73,23 @@ a {
 .btn-green {
   background: green;
 }
+
+.img-desktop{
+  width: 100%;
+  height:100%;
+}
+
+.img-tablet{
+  width: 767px;
+  height:500px;
+}
+
+.img-mobile{
+  width: 376px;
+  height:400px;
+}
+
+.img-logo{
+  width: 175px;
+  height:75px;
+}
