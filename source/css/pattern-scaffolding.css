@@ -52,3 +52,24 @@
   font-size: 90%;
   line-height: 1;
 }
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.Button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: rgb(66, 91, 236);
+  color: #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-green {
+  background: green;
+}

@@ -1,0 +1,20 @@
+{
+    "button": {
+        "tag": "button",
+        "link":"https://sapient.com",
+        "text":"Submit"
+    },
+    "list":{
+        "list":[
+            {
+                "name":"Vihaan"
+            },
+            {
+                "name":"Sathya"
+            },
+            {
+                "name":"Guru Sai"
+            }
+        ]
+    }
+}
